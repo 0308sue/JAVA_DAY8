@@ -1,0 +1,32 @@
+1:    package com.day08.book;
+2:    
+3:    public class Book {
+4:    	private String title;
+5:    	private String writer;
+6:    	private int price;
+7:    	public Book(String title, String writer, int price) {
+8:    		super();
+9:    		this.title = title;
+10:    		this.writer = writer;
+11:    		this.price = price;
+12:    	}
+13:    
+14:    	public String getTitle() {
+15:    		return title;
+16:    	}
+17:    	public String getWriter() {
+18:    		return writer;
+19:    	}
+20:    	public int getPrice() {
+21:    		return price;
+22:    	}
+23:    
+24:    
+25:    
+26:    	@Override
+27:    	public String toString() {
+28:    		return "Book [����=" + title + ", ����=" + writer + ", ����=" + price + "]";
+29:    	}
+30:    	
+31:    	
+32:    }
